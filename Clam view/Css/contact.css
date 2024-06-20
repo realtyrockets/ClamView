@@ -8,21 +8,17 @@ a{
 	font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /* navbar styling */
 .navbar{
 	display: flex;
 	height: 5rem;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     width: 100%;
-    position: fixed;
-    
-    top: 0%;
 	justify-content: space-between;
 	align-items: center;
-	
- background-color:  #027E11
-  ;
+	padding-top: 1rem;
+    background-color: #027E11;
+    color: white;
 
 	
 }
@@ -54,7 +50,7 @@ color: #000;
 	width: 94%;
 	top: 6rem;
 	left: 18px;
-	background-color: black;
+	background-color: rgb(255, 255, 255);
 	font-weight: 600;
 
 }
@@ -64,8 +60,8 @@ color: #000;
 	padding: 5px 0;
 }
 .nav-menu a:hover{
-  color:black;
-	background-color:white;
+	background-color: rgb(223, 251, 219);
+    color: black;
 }
 
 .hide{
@@ -236,59 +232,58 @@ input[type=submit]:focus{
 
 /*footer*/
 .footer1{
+  width: 100%;
+  height: 140px;
+position: absolute;
+margin-top: 70px;
   
-    width: 100%;
-    height: 140px;
-margin-top: 80px;
+background-color: #027E11;
 
+}
+.foot{
+width: 24%;
+margin: 30px;
+height: 102px;
+float: left;
+padding-top: 30px;
+}
 
-    
-  background-color: #027E11;
+.foot1{
+width: 45%;
+height: 50px;
+margin: 72px 0px 0px 0px ;
+float: left;
+}
+.foot1 p{
+margin-left: 60px;
+}
+
+.foot2{
+height: 80px;
+width: 15%;
+float: left;
+margin-left: 30px;
+margin-top: 10px;
+}
+.foot img{
+margin-left: 50px;
+width: 120px;
+height:50px;
+}
+.foot2 i{
+margin-top:60px;
+  color:#fff;
+  background:#027E11;
+  border: 2px solid #027E11;
+  border-radius:50%;
+  padding:5px;
+  font-size:14px;
+  margin-right:3px;
+  display:absolute;
+}
+.foot2 i:hover{
+  color:#027E11;
+  background:#fff;
+
   
-  }
-  .foot{
-  width: 24%;
-  margin: 30px;
-  height: 102px;
-  float: left;
-  }
-  
-  .foot1{
-  width: 45%;
-  height: 50px;
-  margin: 72px 0px 0px 0px ;
-  float: left;
-  }
-  .foot1 p{
-  margin-left: 60px;
-  }
-  
-  .foot2{
-  height: 80px;
-  width: 15%;
-  float: left;
-  margin-left: 30px;
-  margin-top: 10px;
-  }
-  .foot img{
-  margin-left: 50px;
-  width: 120px;
-  height:50px;
-  }
-  .foot2 i{
-  margin-top:60px;
-    color:#fff;
-    background:#027E11;
-    border: 2px solid #36c847;
-    border-radius:50%;
-    padding:5px;
-    font-size:14px;
-    margin-right:3px;
-    display:absolute;
-  }
-  .foot2 i:hover{
-    color:#027E11;
-    background:#fff;
-  
-    
-  }
+}
