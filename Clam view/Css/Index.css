@@ -4,6 +4,7 @@ a{
 	color: black;
 	font-size: 1.3rem;
 	font-weight: bold;
+    font-family: Helvetica, sans-serif;
 }
 
 /* navbar styling */
@@ -15,6 +16,8 @@ a{
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 1rem;
+    background-color: #027E11;
+    color: white;
 
 	
 }
@@ -57,6 +60,7 @@ color: #000;
 }
 .nav-menu a:hover{
 	background-color: rgb(223, 251, 219);
+    color: black;
 }
 
 .hide{
@@ -253,13 +257,165 @@ color: #000;
     background: #ababab;
     color: #fff;
 }
+/* contenttttttttt */
 
 
 
+.photo{
+    margin-top: 100px;
+  }
+  .p1{
+  width: 60%;
+  height: 400px;
+  float: left;
+  }
+  .p2{
+    margin-left: 18px;
+    width: 25%;
+    float: left;
+    height: 350px;
+    }
+    .p2 img{
+      margin-top: 12px;
+      
+      cursor: pointer;
+      width: 430px;
+      height: 350px;
+      transition: all ease-in-out 0.5s;
+    }
+    .p{
+      width: 91%;
+      margin: 0px 0px 20px 55px;
+      height:400px;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    }
+    
+    .p2 img:hover{
+      transform: scale(1.025);
+    }
+  
+  .p1 h2{
+    margin:20px 0px 0px 25px;
+    color: #31241E;
+  }
+  .p1 h3{
+    
+    margin:10px 0px 0px 25px;
+    color: #31241E
+  
+  }
+  .p1 p{
+    margin:20px 0px 0px 25px;
+    text-align: justify;
+    color: #31241E;
+  }
+  
+  
+  
+  .pa1{
+    width: 60%;
+    height: 400px;
+    margin-left: 40px;
+    float: right;
+
+    }
+    .pa2{
+      margin-left: 18px;
+      width: 30%;
+      float: left;
+      height: 350px;
+      }
+      .pa2 img{
+        margin-top: 12px;
+        
+        cursor: pointer;
+        width: 400px;
+        height: 350px;
+        transition: all ease-in-out 0.5s;
+      }
+      .pa{
+        width: 91%;
+        height:400px;
+        
+      margin: 0px 0px 20px 55px;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+      }
+      
+      .pa2 img:hover{
+        transform: scale(1.025);
+      }
+    
+    .pa1 h2{
+      color: #31241E;
+      margin-left: 50px;
+      margin-top: 20px;
+    }
+    .pa1 h3{
+      margin-left: 50px;
+      color: #31241E;
+      margin-top: 10px;
+    
+    }
+    .pa1 p{margin-top: 10px;
+      margin-left: 50px;
+      text-align: justify;
+      color: #31241E;
+    }
+  
+  .pa1 ul {
+    margin-left: 65px;
+  }
+  
+  
+    .pb1{
+      width: 60%;
+      height: 400px;
+      float: left;
+      }
+      .pb2{
+        margin-left: 18px;
+        width: 25%;
+        float: left;
+        height: 350px;
+        }
+        .pb2 img{
+          margin-top: 12px;
+          
+          cursor: pointer;
+          width: 430px;
+          height: 350px;
+          transition: all ease-in-out 0.5s;
+        }
+        .pb{
+          width: 91%;
+          margin: 0px 0px 20px 55px;
+          height:400px;
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        .pb2 img:hover{
+          transform: scale(1.025);
+        }
+      
+      .pb1 h2{
+        margin:30px 0px 0px 25px;
+        color: #31241E;
+      }
+      .pb1 h3{
+        
+        margin:10px 0px 0px 25px;
+        color: #31241E
+      
+      }
+      .pb1 p{
+        margin:20px 0px 0px 25px;
+        text-align: justify;
+        color: #31241E;
+      }
+  
+  
 
 
-
-/*fotter/*
 
 
 
@@ -270,7 +426,7 @@ color: #000;
 position: absolute;
 margin-top: 70px;
     
-  background-color: #ECE0CD;
+  background-color: #027E11;
   
   }
   .foot{
@@ -278,6 +434,7 @@ margin-top: 70px;
   margin: 30px;
   height: 102px;
   float: left;
+  padding-top: 30px;
   }
   
   .foot1{
@@ -305,8 +462,8 @@ margin-top: 70px;
   .foot2 i{
   margin-top:60px;
     color:#fff;
-    background:#AA7438;
-    border: 2px solid #AA7438;
+    background:#027E11;
+    border: 2px solid #027E11;
     border-radius:50%;
     padding:5px;
     font-size:14px;
@@ -314,7 +471,7 @@ margin-top: 70px;
     display:absolute;
   }
   .foot2 i:hover{
-    color:#AA7438;
+    color:#027E11;
     background:#fff;
   
     
