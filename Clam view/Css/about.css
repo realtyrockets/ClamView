@@ -122,15 +122,12 @@ color: #000;
 
 /* Global Styles */
 
-body {
-    font-family: Arial, sans-serif;
-}
 
 /* Header */
 
 header {
     background-color: white;
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -179,7 +176,7 @@ nav {
 .about {
     
     background: rgb(224, 251, 222);
-    background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
+    background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(27, 163, 209) 100%);
     padding: 150px 0 20px 0;
     text-align: center;
 }
@@ -309,64 +306,7 @@ button:hover {
     color: #555;
 }
 
-/* Footer */
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
 
-@media (max-width: 768px) {
-    nav {
-        display: block;
-    }
-
-    .logo {
-        text-align: center;
-    }
-
-    .nav-links {
-        margin-top: 1rem;
-        justify-content: space-between;
-    }
-
-    .nav-links li {
-        margin-right: 0;
-    }
-
-    .about h1 {
-        font-size: 2rem;
-    }
-
-    .about p {
-        font-size: 0.9rem;
-    }
-
-    .about-info {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .about-img {
-        width: 60%;
-        height: 60%;
-        margin-bottom: 1rem;
-    }
-
-    .about-info p {
-        margin: 1rem 2rem;
-    }
-
-    .about-info button {
-        margin: 1rem 2rem;
-        width: 10rem;
-    }
-
-    .team {
-        margin: 0 1rem;
-    }
-}
 
 
 
