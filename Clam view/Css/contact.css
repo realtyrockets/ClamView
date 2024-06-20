@@ -1,0 +1,272 @@
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+/* navbar styling */
+.navbar{
+	display: flex;
+	height: 5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+
+	
+}
+
+/* logo style */
+.logo img{
+	width: 4rem;
+	height: 4rem;
+	margin-left:1rem;
+}
+
+.hamburger-menu{
+	padding-right: 1.5rem;
+	cursor: pointer;
+}
+
+.hamburger-menu .line{
+display: block;
+width:5rem;
+height: 2px;
+margin-bottom: 10px;
+background-color: black;
+cursor: pointer;
+color: #000;
+}
+
+.nav-menu{
+	position: fixed;
+	width: 94%;
+	top: 6rem;
+	left: 18px;
+	background-color: rgb(255, 255, 255);
+	font-weight: 600;
+
+}
+.nav-menu a{
+	display: block;
+	text-align: center;
+	padding: 5px 0;
+}
+.nav-menu a:hover{
+	background-color: rgb(223, 251, 219);
+}
+
+.hide{
+	display: none;
+}
+
+/* for Desktop view */
+@media screen and (min-width:600px){
+	.navbar{
+		justify-content: space-around;
+	}
+	.nav-menu{
+		display: block;
+		position: static;
+		width: auto;
+		margin-right:20px;
+		background: none;
+	}
+	.nav-menu a{
+		display: inline-block;
+		padding: 15px 20px;
+	}
+	.nav-menu a:hover{
+		background-color: rgb(223, 251, 219);
+		border-radius: 5px;
+	}
+	.hamburger-menu{
+		display: none;
+	}
+}
+
+/* for Desktop view */
+@media screen and (min-width:600px){
+	.navbar{
+		justify-content: space-around;
+	}
+	.nav-menu{
+		display: block;
+		position: static;
+		width: auto;
+		margin-right:20px;
+		background: none;
+	}
+	.nav-menu a{
+		display: inline-block;
+		padding: 15px 20px;
+	}
+	.nav-menu a:hover{
+		background-color: rgb(223, 251, 219);
+		border-radius: 5px;
+	}
+	.hamburger-menu{
+		display: none;
+	}
+}
+html{
+
+    box-sizing:border-box;
+}
+*{
+  box-sizing:inherit;
+}
+.contact{
+
+    margin:20px 0px 0px 30px ;
+}
+
+h1, p{
+  text-align: center;
+}
+label{
+  display:block;
+  margin:1em 0 .2em;
+}
+/* single-line text, checkbox, and button */
+input, select, textarea{
+  display:block;
+  width:100%;
+  padding:.3em;
+  font-size:20px;
+  background-color:#fbfbfb;
+  border:solid 1px #CCC;
+  resize:vertical;
+}
+textarea{
+  min-height:180px;
+}
+select{
+  color:indigo;
+}
+option{
+  color:blue;
+  background: lavenderBlush;
+}
+input[type=checkbox]{
+  display:inline;
+  width:auto;
+  color:red;
+}
+
+input[type=submit]{
+  background:lightcoral;
+  margin:1em 0 0;
+  color:white;
+  border:none;
+  border-radius:8px;
+  transition:all .3s ease-out;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+  background: lavenderBlush;
+}
+
+/* hover and focus states */
+input[type=submit]:hover,
+input[type=submit]:focus{
+  background: lightgreen;
+  outline:none;
+}
+
+@media screen and (min-width:600px) {
+  /*  make the form 2 columns */
+  form:after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+  .column{
+    width:50%;
+    padding:1em;
+    float:left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fotter/*
+
+
+
+/*footer*/
+.footer1{
+    width: 100%;
+    height: 140px;
+position: absolute;
+margin-top: 70px;
+    
+  background-color: #ECE0CD;
+  
+  }
+  .foot{
+  width: 24%;
+  margin: 30px;
+  height: 102px;
+  float: left;
+  }
+  
+  .foot1{
+  width: 45%;
+  height: 50px;
+  margin: 72px 0px 0px 0px ;
+  float: left;
+  }
+  .foot1 p{
+  margin-left: 60px;
+  }
+  
+  .foot2{
+  height: 80px;
+  width: 15%;
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+  }
+  .foot img{
+  margin-left: 50px;
+  width: 120px;
+  height:50px;
+  }
+  .foot2 i{
+  margin-top:60px;
+    color:#fff;
+    background:#AA7438;
+    border: 2px solid #AA7438;
+    border-radius:50%;
+    padding:5px;
+    font-size:14px;
+    margin-right:3px;
+    display:absolute;
+  }
+  .foot2 i:hover{
+    color:#AA7438;
+    background:#fff;
+  
+    
+  }
