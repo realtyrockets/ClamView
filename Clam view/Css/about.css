@@ -59,7 +59,7 @@ color: #000;
 }
 .nav-menu a:hover{
 	background-color: rgb(223, 251, 219);
-    color: black;
+    color: black !important;
 }
 
 .hide{
@@ -170,7 +170,7 @@ nav {
 .nav-links a:hover {
     background-color: #40b736;
     border-radius: 4px;
-    color: white;
+    color: black !important;
 }
 
 /* About Section */

@@ -111,6 +111,7 @@ color: #000;
 	.nav-menu a:hover{
 		background-color: rgb(223, 251, 219);
 		border-radius: 5px;
+    color: #000!important;
 	}
 	.hamburger-menu{
 		display: none;

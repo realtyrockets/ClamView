@@ -65,7 +65,7 @@ color: #000;
 }
 .nav-menu a:hover{
 	background-color: rgb(223, 251, 219);
-    color: black;
+    color: black !important;
 }
 
 .hide{
