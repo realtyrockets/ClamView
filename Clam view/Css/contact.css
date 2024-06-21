@@ -3,7 +3,7 @@ body{
 }
 a{
 	text-decoration: none;
-	color:white;
+	color:black;
 	font-size: 1.3rem;
 	font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -50,7 +50,7 @@ color: #000;
 	width: 94%;
 	top: 6rem;
 	left: 18px;
-	background-color: rgb(255, 255, 255);
+	background-color:black ;
 	font-weight: 600;
 
 }
