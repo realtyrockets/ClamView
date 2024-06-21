@@ -24,10 +24,10 @@ a{
 }
 
 /* logo style */
-.logo img{
-	width: 4rem;
-	height: 4rem;
-	margin-left:1rem;
+.logo a:hover{
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the scaling */
+  transform-origin: center;
+  font-size: 1.5rem;
 }
 
 .hamburger-menu{
